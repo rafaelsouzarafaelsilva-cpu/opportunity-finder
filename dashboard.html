@@ -1,0 +1,77 @@
+<button id="exportCsv">
+📥 Exportar CSV
+</button>
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Opportunity Finder Pro</title>
+<link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>Opportunity Finder</h2>
+
+<ul>
+<li>Dashboard</li>
+<li>Leads</li>
+<li>WhatsApp</li>
+<li>E-mails</li>
+<li>Histórico</li>
+<li>Configurações</li>
+</ul>
+
+</div>
+
+<div class="content">
+
+<h1>Dashboard</h1>
+
+<input
+id="search"
+placeholder="Pesquisar lead..."
+>
+
+<div class="cards">
+
+<div class="card">
+<h3>Leads</h3>
+<p id="totalLeads">0</p>
+</div>
+
+</div>
+
+<table>
+
+<thead>
+<tr>
+<th>Empresa</th>
+<th>Score</th>
+<th>Telefone</th>
+<th>Site</th>
+<th>Avaliação</th>
+<th>Avaliações</th>
+<th>Fonte</th>
+<th>Data</th>
+</tr>
+</thead>
+
+</thead>
+
+<tbody id="tableData">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+
+</html>
